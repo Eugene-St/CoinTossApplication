@@ -11,12 +11,13 @@ import GameKit
 
 struct RollResults {
     
-    let eagle = "EAGLE! Well, you may do what you wanted to do, the result is going to be successful"
-    let tails = "TAILS! Not sure that you should proceed. Try to find a workaround!"
+    let yes = "YES!"
+    let no = "NO!"
+    let notSure = "Well, I am not sure at the moment, try again"
     
     func randomResult() -> String {
         
-        var resultsProvider = [eagle, tails]
+        var resultsProvider = [yes, no, notSure]
         
         let randomNumber = GKRandomSource.sharedRandom().nextInt(upperBound: resultsProvider.count)
         return resultsProvider[randomNumber]

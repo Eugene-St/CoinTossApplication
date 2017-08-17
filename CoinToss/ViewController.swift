@@ -34,26 +34,19 @@ class ViewController: UIViewController {
         
         factResult.text = results.randomResult()
         
-        switch {
-        case results.eagle: view.backgroundColor = UIColor.red
-        case results.tails: view.backgroundColor = UIColor.green
+        switch factResult.text! {
+        case results.no: view.backgroundColor = colors.red //RED color
+        case results.yes: view.backgroundColor = colors.green //GREEN color
+        case results.notSure: view.backgroundColor = colors.camel //CAMEL color
         default: break
         }
         
-        
-//        if factResult.text == results.eagle {
-//            view.backgroundColor = UIColor.red
-//        } else if factResult.text == results.tails {
-//            view.backgroundColor = UIColor.green
-//        } else {
-//            print()
-//        }
-        
-        //let randomColor = colors.randomColor()
-//        view.backgroundColor = randomColor
-//        rollAction.tintColor = randomColor
-        
+        switch factResult.text! {
+        case results.no: rollAction.tintColor = colors.red
+        case results.yes: rollAction.tintColor = colors.green
+        case results.notSure: rollAction.tintColor = colors.camel
+        default: break
+        }
     }
-
 }
 
