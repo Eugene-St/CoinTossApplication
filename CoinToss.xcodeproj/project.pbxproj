@@ -12,6 +12,12 @@
 		9623B89F1F44D8EA009D9020 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9623B89D1F44D8EA009D9020 /* Main.storyboard */; };
 		9623B8A11F44D8EA009D9020 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9623B8A01F44D8EA009D9020 /* Assets.xcassets */; };
 		9623B8A41F44D8EA009D9020 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9623B8A21F44D8EA009D9020 /* LaunchScreen.storyboard */; };
+		9623B8AC1F44DB3D009D9020 /* Tail-coin.png in Resources */ = {isa = PBXBuildFile; fileRef = 9623B8AB1F44DB3D009D9020 /* Tail-coin.png */; };
+		9623B8AE1F44DB56009D9020 /* Eagle-coin.png in Resources */ = {isa = PBXBuildFile; fileRef = 9623B8AD1F44DB56009D9020 /* Eagle-coin.png */; };
+		9623B8B01F44E10C009D9020 /* 23513407-eagle-cartoon-thumb-up-Stock-Vector-bird.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9623B8AF1F44E10C009D9020 /* 23513407-eagle-cartoon-thumb-up-Stock-Vector-bird.jpg */; };
+		9623B8B21F44E12A009D9020 /* cartoon_hawk_st5.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9623B8B11F44E12A009D9020 /* cartoon_hawk_st5.gif */; };
+		9623B8B41F44E380009D9020 /* ResultProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9623B8B31F44E380009D9020 /* ResultProvider.swift */; };
+		9623B8B61F44E9EB009D9020 /* ColorsProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9623B8B51F44E9EB009D9020 /* ColorsProvider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		9623B8A01F44D8EA009D9020 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9623B8A31F44D8EA009D9020 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9623B8A51F44D8EA009D9020 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9623B8AB1F44DB3D009D9020 /* Tail-coin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Tail-coin.png"; path = "../../Tail-coin.png"; sourceTree = "<group>"; };
+		9623B8AD1F44DB56009D9020 /* Eagle-coin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Eagle-coin.png"; path = "../../Eagle-coin.png"; sourceTree = "<group>"; };
+		9623B8AF1F44E10C009D9020 /* 23513407-eagle-cartoon-thumb-up-Stock-Vector-bird.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "23513407-eagle-cartoon-thumb-up-Stock-Vector-bird.jpg"; path = "../../23513407-eagle-cartoon-thumb-up-Stock-Vector-bird.jpg"; sourceTree = "<group>"; };
+		9623B8B11F44E12A009D9020 /* cartoon_hawk_st5.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = cartoon_hawk_st5.gif; path = ../../cartoon_hawk_st5.gif; sourceTree = "<group>"; };
+		9623B8B31F44E380009D9020 /* ResultProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultProvider.swift; sourceTree = "<group>"; };
+		9623B8B51F44E9EB009D9020 /* ColorsProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorsProvider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +52,10 @@
 			children = (
 				9623B8981F44D8EA009D9020 /* CoinToss */,
 				9623B8971F44D8EA009D9020 /* Products */,
+				9623B8AB1F44DB3D009D9020 /* Tail-coin.png */,
+				9623B8AD1F44DB56009D9020 /* Eagle-coin.png */,
+				9623B8AF1F44E10C009D9020 /* 23513407-eagle-cartoon-thumb-up-Stock-Vector-bird.jpg */,
+				9623B8B11F44E12A009D9020 /* cartoon_hawk_st5.gif */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,7 +72,9 @@
 			children = (
 				9623B8991F44D8EA009D9020 /* AppDelegate.swift */,
 				9623B89B1F44D8EA009D9020 /* ViewController.swift */,
+				9623B8B51F44E9EB009D9020 /* ColorsProvider.swift */,
 				9623B89D1F44D8EA009D9020 /* Main.storyboard */,
+				9623B8B31F44E380009D9020 /* ResultProvider.swift */,
 				9623B8A01F44D8EA009D9020 /* Assets.xcassets */,
 				9623B8A21F44D8EA009D9020 /* LaunchScreen.storyboard */,
 				9623B8A51F44D8EA009D9020 /* Info.plist */,
@@ -96,6 +114,7 @@
 				TargetAttributes = {
 					9623B8951F44D8EA009D9020 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = B7NCZ24UXD;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -124,6 +143,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9623B8A41F44D8EA009D9020 /* LaunchScreen.storyboard in Resources */,
+				9623B8B21F44E12A009D9020 /* cartoon_hawk_st5.gif in Resources */,
+				9623B8AC1F44DB3D009D9020 /* Tail-coin.png in Resources */,
+				9623B8AE1F44DB56009D9020 /* Eagle-coin.png in Resources */,
+				9623B8B01F44E10C009D9020 /* 23513407-eagle-cartoon-thumb-up-Stock-Vector-bird.jpg in Resources */,
 				9623B8A11F44D8EA009D9020 /* Assets.xcassets in Resources */,
 				9623B89F1F44D8EA009D9020 /* Main.storyboard in Resources */,
 			);
@@ -136,8 +159,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9623B8B61F44E9EB009D9020 /* ColorsProvider.swift in Sources */,
 				9623B89C1F44D8EA009D9020 /* ViewController.swift in Sources */,
 				9623B89A1F44D8EA009D9020 /* AppDelegate.swift in Sources */,
+				9623B8B41F44E380009D9020 /* ResultProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +285,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B7NCZ24UXD;
 				INFOPLIST_FILE = CoinToss/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = st.eugene.CoinToss;
@@ -272,6 +298,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B7NCZ24UXD;
 				INFOPLIST_FILE = CoinToss/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = st.eugene.CoinToss;
@@ -299,6 +326,7 @@
 				9623B8AA1F44D8EA009D9020 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
