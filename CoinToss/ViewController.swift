@@ -7,9 +7,12 @@
 //
 
 import UIKit
+import AVFoundation
 
 class ViewController: UIViewController {
     
+    var url = NSURL(fileURLWithPath: Bundle.main.path(forResource: "button-3", ofType: "wav")!)
+    var audioPlayer = AVAudioPlayer()
     @IBOutlet weak var factResult: UILabel!
     @IBOutlet weak var rollAction: UIButton!
     
@@ -22,8 +25,14 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         factResult.text = "Your prediction for now is ready. Press Roll Me button"
         
-
+        
+        do {
+           try audioPlayer = AVAudioPlayer(contentsOf: url as URL)
+        } catch {
+            NSLog("Error: There is an error with the audio file named button-3.wav")
         }
+        
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -33,6 +42,8 @@ class ViewController: UIViewController {
     @IBAction func showRollResult() {
         
         factResult.text = results.randomResult()
+//        pictures.image = UIImage(named: "no-clipart.jpg")
+        audioPlayer.play()
         
         switch factResult.text! {
         case results.no: view.backgroundColor = colors.red //RED color

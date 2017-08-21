@@ -11,9 +11,9 @@ import GameKit
 
 struct RollResults {
     
-    let yes = "YES!"
-    let no = "NO!"
-    let notSure = "Well, I am not sure at the moment, try again"
+    let yes = "lol, YES!"
+    let no = "Fucking NO!"
+    let notSure = "Not sure, ask your mom!"
     
     func randomResult() -> String {
         
